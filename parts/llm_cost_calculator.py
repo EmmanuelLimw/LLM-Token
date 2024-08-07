@@ -1,5 +1,5 @@
 import streamlit as st
-from utilities import load_base_models, load_quantization, load_gpus, load_gpu_providers, convert_params, compute_bound_tokens_p_sec, memory_bound_tokens_p_sec, cost_per_1k_tokens
+from utility import load_base_models, load_quantization, load_gpus, load_gpu_providers, convert_params, compute_bound_tokens_p_sec, memory_bound_tokens_p_sec, cost_per_1k_tokens
 
 def display_llm_cost_tool():
     st.title("Token Tally: LLM Cost Estimator")
