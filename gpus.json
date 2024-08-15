@@ -1066,6 +1066,59 @@
         "Name": "8V100.48V"
     },
     {
+        "Cloud": "DataCrunch",
+        "GPU Type": "L40 (48 GB)",
+        "GPU Arch": "Ada Lovelace",
+        "GPUs": "1",
+        "GPU RAM": "48",
+        "vCPUs": "",
+        "RAM": "",
+        "On-demand": "1.36",
+        "Per-GPU": "20",
+        "Spot": "",
+        "Name": "1L40S.20V"
+    },
+    {
+        "Cloud": "DataCrunch",
+        "GPU Type": "L40 (48 GB)",
+        "GPU Arch": "Ada Lovelace",
+        "GPUs": "2",
+        "GPU RAM": "96",
+        "vCPUs": "",
+        "RAM": "",
+        "On-demand": "2.72",
+        "Per-GPU": "40",
+        "Spot": "",
+        "Name": "2L40S.40V"
+    },
+    {
+        "Cloud": "DataCrunch",
+        "GPU Type": "L40 (48 GB)",
+        "GPU Arch": "Ada Lovelace",
+        "GPUs": "4",
+        "GPU RAM": "192",
+        "vCPUs": "",
+        "RAM": "",
+        "On-demand": "5.43",
+        "Per-GPU": "80",
+        "Spot": "",
+        "Name": "4L40S.80V"
+    },
+    {
+        "Cloud": "DataCrunch",
+        "GPU Type": "L40 (48 GB)",
+        "GPU Arch": "Ada Lovelace",
+        "GPUs": "8",
+        "GPU RAM": "384",
+        "vCPUs": "",
+        "RAM": "",
+        "On-demand": "10.86",
+        "Per-GPU": "160",
+        "Spot": "",
+        "Name": "8L40S.160V"
+    },
+
+    {
         "Cloud": "Exoscale",
         "GPU Type": "P100 (16 GB)",
         "GPU Arch": "Pascal",
